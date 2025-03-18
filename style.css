@@ -149,7 +149,7 @@ figcaption {
 }
 
 .rezervacija{
-    font-size: 1.8vw;
+    font-size: 1.8rem;
 }
 
 input[type=text],
@@ -219,7 +219,7 @@ input[type=submit]:hover {
     }
 
 .rezervacija{
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     }
     
     .h2 {
@@ -243,7 +243,7 @@ input[type=submit]:hover {
     }
 
     .rezervacija{
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     }
 
     .h2 {
@@ -272,7 +272,7 @@ input[type=submit]:hover {
     }
 
     .rezervacija{
-    font-size: 1.6vw;
+    font-size: 1.6rem;
     }
 
     .h2 {
