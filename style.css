@@ -1,0 +1,262 @@
+.body {
+    background-color: #f2f0ef;
+    margin-top: 100px;
+}
+
+.nav-color {
+    background-color: #EB657B;
+}
+
+.nav-link {
+    color: #f2f0ef !important;
+    font-weight: bolder !important;
+    text-shadow: 1px 1px 2px grey !important;
+}
+
+.offcanvas-title {
+    color: #ac4859;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.navbar-brand {
+    display: flex;
+    position: absolute;
+    height: 275px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+    margin-bottom: 0.5%;
+}
+
+.navbar .container {
+    position: relative;
+    height: 90px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.6) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+}
+
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.h2 {
+    font-family: 'Montserrat';
+    font-size: 5vw !important;
+    font-weight: bolder !important;
+}
+
+p {
+    font-family: 'Quicksand';
+    font-size: 1.8vw;
+    text-align: justify;
+}
+
+blockquote {
+    font-family: 'Quicksand';
+    font-size: 1.5vw;
+}
+
+.carousel-caption {
+    text-align: center;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    font-size: 2vw !important;
+}
+
+.homepage-naslovi {
+    font-size: 50px !important;
+    font-weight: bolder !important;
+}
+
+.footer {
+    background-color: #EB657B;
+    color: white;
+    top: 50%;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.footer p {
+    text-align: center !important;
+}
+
+.btn {
+    color: #dda772 !important;
+    font-weight: bolder !important;
+}
+
+a {
+    color: #f2f0ef !important;
+    text-decoration: none !important;
+    font-weight: bolder !important;
+}
+
+.lokacija span {
+    color: #f2f0ef !important;
+    background-color: #4a81a1 !important;
+}
+
+.lokacija a :hover {
+    background-color: #aac7fe !important;
+
+}
+
+.citati p {
+    text-align: center !important;
+    font-weight: bolder;
+}
+
+figcaption {
+    font-family: 'Quicksand';
+    font-size: 30px;
+}
+
+.galerija a {
+    text-align: end !important;
+    text-decoration: none !important;
+    font-weight: bolder !important;
+    font-size: 25px !important;
+}
+
+.galerija a :hover {
+    background-color: #aac7fe !important;
+}
+
+.galerija span {
+    color: #f2f0ef !important;
+    background-color: #4a81a1 !important;
+}
+
+.pns a :hover {
+    background-color: #aac7fe !important;
+}
+
+.pns span {
+    color: #f2f0ef !important;
+    background-color: #4a81a1 !important;
+}
+
+.rezervacija {
+    font-size: 30px !important;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4a81a1;
+    color: #f2f0ef;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #aac7fe;
+}
+
+.rezervacija .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.lokacija-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.google-map iframe {
+    width: 90%;
+    max-width: 850px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.mapa h1 {
+    font-size: 50px !important;
+    font-weight: bolder !important;
+    text-align: center;
+}
+
+.mapa p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    p,
+    blockquote {
+        font-size: 1.5rem;
+    }
+
+    .h2 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption {
+        font-size: 1.3rem;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .homepage-naslovi {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    p,
+    blockquote {
+        font-size: 1.7rem;
+    }
+
+    .h2 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption {
+        font-size: 1.5rem;
+    }
+
+    .homepage-naslovi {
+        font-size: 2.8rem;
+    }
+}

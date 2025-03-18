@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stvaralačka radionica 'Intriga'</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+</head>
+
+<body class="body">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar nav-color navbar-expand-lg fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="logo.svg" alt="Logotip"></a>
+            <button class="navbar-toggler border-0 shadow-none navbar-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end sidebar" id="offcanvasNavbar">
+                <div class="offcanvas-header border-bottom">
+                    <h5 class="offcanvas-title">NAVIGACIJA</h5>
+                    <button type="button" class="border-0 shadow-none btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">🏠︎</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galerija.html">Galerija</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#usluge">Usluge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#recenzije">Recenzije</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lokacija.html">Lokacija</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselHomePage" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="ringispil1.JPG" class="d-block w-100" alt="Slika 1">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="h2">Ponudite svojim mališanima najljepši dar...</h2>
+                    <p>...razvoj vlastite slobode, mašte i kreativnog izražavanja!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ringispil2.JPG" class="d-block w-100" alt="Slika 2">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="h2">Topla i poticajna atmosfera</h2>
+                    <p>"Intriga" je mjesto gdje djeca mogu stvarati, istraživati i učiti bez straha od pogrešaka.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ringispil3.JPG" class="d-block w-100" alt="Slika 3">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="h2">Umjetnost kroz dječje oči</h2>
+                    <p>Svaki potez kista ili olovke ima vlastitu priču - neka vaše dijete oblikuje svoju!</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomePage" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHomePage" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="homepage-naslovi">O nama</h2><br>
+                <p>Dobrodošli na web stranicu "Intrige", umjetničke radionice za djecu i mlade <b>(3 - 16 god.)</b>! Naš
+                    cilj je potaknuti
+                    maštu, razviti vještine kreativnog izražavanja i pružiti sigurno okruženje gdje svaki polaznik može
+                    slobodno
+                    izražavati sebe kroz umjetnost.</p>
+                <p>Uz <b>stručno vodstvo</b> i <b>zabavne aktivnosti</b>, naši mali umjetnici
+                    istražuju različite tehnike i materijale, učeći kroz igru i eksperimentiranje.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="slika1.svg" class="img-fluid rounded" alt="O nama slika">
+            </div>
+        </div>
+    </section>
+
+    <section id="usluge" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="slika2.svg" class="img-fluid rounded" alt="Usluge slika">
+            </div>
+            <div class="col-md-6">
+                <h2 class="homepage-naslovi">Usluge</h2>
+                <p>U "Intrigi" nudimo različite vrste radionica, prilagođene dobi i interesima djece:</p><br>
+
+                <p><b>Individualne radionice</b> - Za djecu koja žele individualan pristup, nepodijeljenu pažnju
+                    voditeljice i priliku za dublje istraživanje
+                    vlastitog umjetničkog stila.</p>
+                <p><b>Grupne radionice</b> - Interaktivne i zabavne, gdje djeca zajedno stvaraju, uče i dijele ideje.
+                </p>
+                <p><b>Tematske radionice</b> - Svaki tjedan istražujemo novu umjetničku tehniku ili temu, od slikanja
+                    akrilom do modeliranja gline.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 galerija">
+        <h2 class="homepage-naslovi">Galerija</h2><br>
+        <div class="row">
+            <div class="col-md-4"><img src="gal(5).jpg" class="img-fluid rounded" alt="Slika 1"></div>
+            <div class="col-md-4"><img src="gal(9).jpg" class="img-fluid rounded" alt="Slika 2"></div>
+            <div class="col-md-4"><img src="gal(11).jpg" class="img-fluid rounded" alt="Slika 3"></div><br>
+            <a href="galerija.html"><span>Učitaj još...</span></a>
+        </div>
+    </section>
+
+    <section id="recenzije" class="container my-5 citati">
+        <h2 class="homepage-naslovi">Recenzije</h2><br>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote>"Moja kćer je uvijek bila sramežljivog karaktera, ali od kad pohađa 'Intrigu', njezino
+                    samopouzdanje prilikom
+                    crtanja, slikanja, ali i komunikacije s drugima je nevjerojatno poraslo! Jako smo zadovoljni
+                    pristupom voditeljica i atmosferom na radionici."
+                </blockquote>
+                <p>- Ana K. (mama sedmogodišnje Lene)</p>
+            </div>
+            <div class="col-md-4">
+                <blockquote>"Ivan je oduvijek volio crtati, ali nije imao hrabrosti isprobavati nove, nepoznate tehnike
+                    (iako je htio).
+                    Nakon 'Intrige' tog problema nema! Bez obzira na to što pronađe od materijala, uspije napraviti rad
+                    s kojim je
+                    zadovoljan. Preporučujem
+                    svakom roditelju!"</blockquote>
+                <p>- Dario Š. (tata desetogodišnjeg Ivana)</p>
+            </div>
+            <div class="col-md-4">
+                <blockquote>"Oboje moje djece pohađaju 'Intrigu' i obožavaju je. Super je što postoji kombinacija
+                    individualnog i grupnog rada, pa svatko može pronaći ono što mu najviše odgovara. Vesele se svakoj
+                    novoj radionici!"</blockquote>
+                <p>- Eleonora T. (mama osmogodišnje Nore i šestogodišnjeg Petra)</p>
+            </div>
+        </div><br>
+        <p class="text-center mt-3" style="font-weight: bolder; color: #d4905f; ">Vašu recenziju možete
+            napisati i ubaciti u kutiju za recenzije, koja se nalazi u našoj čekaonici.</p>
+    </section>
+
+    <section class="container my-5 pns">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="homepage-naslovi">Pridružite nam se</h2><br>
+                <p>Ako ste zainteresirani za naše radionice i želite <b>osigurati mjesto za svoje dijete</b>, ovdje možete brzo
+                    i jednostavno napraviti rezervaciju. Bilo da vaše dijete već voli crtati i stvarati ili tek želi
+                    istražiti svijet umjetnosti, <b>naše radionice su otvorene za sve male kreativce</b>. <br> Kliknite na link
+                    i
+                    <a href="kontakt.html"><span>ispunite prijavu</span></a> - veselimo se što ćemo zajedno stvarati!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="slika4.svg" class="img-fluid rounded" alt="O nama slika">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+
+                <a href="lokacija.html">
+                    <img src="slika3.svg" class="img-fluid rounded" alt="Lokacija slika">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <h2 class="homepage-naslovi">Naša lokacija</h2><br>
+                <p>Gdje se nalazimo? Naši prostori skrivaju se na posebnoj lokaciji... Želite ju pronaći? <b>Kliknite
+                    na pirata - on će Vam pomoći</b>!
+                </p><br>
+                <p class="lokacija">(U slučaju poteškoća, možete do lokacije <a href="lokacija.html"><span>ovim
+                            putem</span></a>)
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Stvaralačka radionica "Intriga". Sva prava pridržana.</p>
+        <p>Neke od slika preuzete sa: <a href="https://unsplash.com/">Unsplash</a></p>
+    </footer>
+
+</body>
+
+</html>
