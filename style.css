@@ -154,7 +154,7 @@ figcaption {
 }
 
 .rezervacija p{
-    font-size: 1vw !important;
+    font-size: 1vw;
 }
 
 input[type=text],
