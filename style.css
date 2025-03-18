@@ -57,18 +57,14 @@ section {
 
 .h2 {
     font-family: 'Montserrat';
-    font-size: 5vw !important;
+    font-size: 3.5rem;
     font-weight: bolder !important;
 }
 
-p {
-    font-family: 'Quicksand';
-    font-size: 3vw !important;
-}
-
+p,
 blockquote {
-    font-family: 'Quicksand';
-    font-size: 3vw !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
 }
 
 .carousel-caption {
@@ -76,11 +72,11 @@ blockquote {
     top: 50%;
     bottom: auto;
     transform: translateY(-50%);
-    font-size: 2vw !important;
+    font-size: 2rem;
 }
 
 .homepage-naslovi {
-    font-size: 50px !important;
+    font-size: 3.5rem;
     font-weight: bolder !important;
 }
 
@@ -152,8 +148,8 @@ figcaption {
     background-color: #4a81a1 !important;
 }
 
-.rezervacija {
-    font-size: 1vw !important;
+.rezervacija{
+    font-size: 1vw;
 }
 
 input[type=text],
@@ -216,19 +212,39 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+@media (max-width: 480px) {
+    p,
+    blockquote {
+        font-size: 1.2rem;
+    }
+
+    .h2 {
+        font-size: 2rem;
+    }
+
+    .homepage-naslovi {
+        font-size: 2rem;
+    }
+
+    .carousel-caption {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 768px) {
 
     p,
     blockquote {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem;
     }
 
     .h2 {
-        font-size: 3rem !important;
+        font-size: 2.5rem;
     }
 
     .carousel-caption {
-        font-size: 1.3rem !important; text-align: center;
+        font-size: 1.3rem;
+        text-align: center;
     }
 
     .carousel-item img {
@@ -236,7 +252,7 @@ input[type=submit]:hover {
     }
 
     .homepage-naslovi {
-        font-size: 2.3rem !important;
+        font-size: 2.3rem;
     }
 }
 
@@ -244,7 +260,7 @@ input[type=submit]:hover {
 
     p,
     blockquote {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .h2 {
@@ -252,10 +268,11 @@ input[type=submit]:hover {
     }
 
     .carousel-caption {
-        font-size: 1.5rem; text-align: center;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .homepage-naslovi {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 }
