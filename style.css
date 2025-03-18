@@ -220,15 +220,15 @@ input[type=submit]:hover {
 
     p,
     blockquote {
-        font-size: 0.2rem;
+        font-size: 1.5rem !important;
     }
 
     .h2 {
-        font-size: 1rem;
+        font-size: 3rem !important;
     }
 
     .carousel-caption {
-        font-size: 0.2rem; text-align: center;
+        font-size: 1.3rem !important; text-align: center;
     }
 
     .carousel-item img {
@@ -236,7 +236,7 @@ input[type=submit]:hover {
     }
 
     .homepage-naslovi {
-        font-size: 1rem;
+        font-size: 2.3rem !important;
     }
 }
 
