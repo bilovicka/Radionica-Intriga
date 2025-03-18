@@ -57,18 +57,18 @@ section {
 
 .h2 {
     font-family: 'Montserrat';
-    font-size: 3vw !important;
+    font-size: 5vw !important;
     font-weight: bolder !important;
 }
 
 p {
     font-family: 'Quicksand';
-    font-size: 1vw !important;
+    font-size: 3vw !important;
 }
 
 blockquote {
     font-family: 'Quicksand';
-    font-size: 1vw !important;
+    font-size: 3vw !important;
 }
 
 .carousel-caption {
