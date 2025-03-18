@@ -148,7 +148,7 @@ figcaption {
     background-color: #4a81a1 !important;
 }
 
-.rezervacija{
+.rezervacija {
     font-size: 1.3rem;
 }
 
@@ -213,15 +213,16 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 480px) {
+
     p,
     blockquote {
         font-size: 1.2rem;
     }
 
-.rezervacija{
-    font-size: 1.2rem;
+    .rezervacija {
+        font-size: 1.2rem;
     }
-    
+
     .h2 {
         font-size: 2rem;
     }
@@ -233,6 +234,9 @@ input[type=submit]:hover {
     .carousel-caption {
         font-size: 1.1rem;
     }
+    .responzivan {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -242,8 +246,8 @@ input[type=submit]:hover {
         font-size: 1.4rem;
     }
 
-    .rezervacija{
-    font-size: 1.4rem;
+    .rezervacija {
+        font-size: 1.4rem;
     }
 
     .h2 {
@@ -262,6 +266,10 @@ input[type=submit]:hover {
     .homepage-naslovi {
         font-size: 2.3rem;
     }
+
+    .responzivan {
+        width: 90%;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -271,8 +279,8 @@ input[type=submit]:hover {
         font-size: 1.6rem;
     }
 
-    .rezervacija{
-    font-size: 1.6rem;
+    .rezervacija {
+        font-size: 1.6rem;
     }
 
     .h2 {
@@ -287,4 +295,10 @@ input[type=submit]:hover {
     .homepage-naslovi {
         font-size: 3rem;
     }
+}
+
+.responzivan {
+    width: 70%;
+    max-width: 800px;
+    height: auto;
 }
