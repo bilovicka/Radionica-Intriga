@@ -152,8 +152,8 @@ figcaption {
     background-color: #4a81a1 !important;
 }
 
-.rezervacija p{
-    font-size: 1.5vw !important;
+.rezervacija {
+    font-size: 1vw;
 }
 
 input[type=text],
